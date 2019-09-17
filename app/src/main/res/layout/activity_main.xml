@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="118dp"
+        android:layout_height="29dp"
+        android:text="Ax + B = 0"
+        android:textSize="24sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView_A"
+        android:layout_width="61dp"
+        android:layout_height="29dp"
+        android:text="Nhập A: "
+        android:textSize="14sp"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <EditText
+        android:id="@+id/editText_A"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="36dp" />
+
+    <TextView
+        android:id="@+id/textView_B"
+        android:layout_width="61dp"
+        android:layout_height="29dp"
+        android:text="Nhập B: "
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <EditText
+        android:id="@+id/editText_B"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="65dp" />
+
+    <Button
+        android:id="@+id/button_tinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tính"
+        tools:layout_editor_absoluteX="4dp"
+        tools:layout_editor_absoluteY="105dp" />
+
+    <TextView
+        android:id="@+id/textView_kq"
+        android:layout_width="368dp"
+        android:layout_height="45dp"
+        android:text="Kết quả:"
+        android:textColor="#EE0707"
+        android:textSize="18sp"
+        tools:layout_editor_absoluteX="5dp"
+        tools:layout_editor_absoluteY="164dp" />
+
+</LinearLayout>
